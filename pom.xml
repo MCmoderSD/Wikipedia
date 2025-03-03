@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.MCmoderSD</groupId>
-    <artifactId>wikipedia</artifactId>
-    <version>1.0.0</version>
-
+    <artifactId>Wikipedia</artifactId>
+    <version>1.1.0</version>
 
     <name>Wikipedia</name>
     <description>A simple Java library to get a summary of a Wikipedia page</description>
 
     <distributionManagement>
         <repository>
-            <id>Wikipedia</id>
-            <name>GitHub MCmoderSD Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/MCmoderSD/Wikipedia</url>
+            <id>Nexus</id>
+            <name>Sonatype Nexus</name>
+            <url>https://mcmodersd.de/nexus/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
@@ -30,7 +29,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.18.2</version>
+            <version>2.18.3</version>
         </dependency>
     </dependencies>
 
